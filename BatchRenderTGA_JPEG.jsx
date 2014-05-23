@@ -79,11 +79,7 @@
       
         }
 
-        
-        
-        
-       
-       //Esta função importa as sequencias ou videos de um determinado diretório. (Vem com o próprio After Effects)
+        //Esta função importa as sequencias ou videos de um determinado diretório. (Vem com o próprio After Effects)
         function SmartImport(){	
             // Ask the user for a folder whose contents are to be imported.
             var targetFolder = Folder.selectDialog("Import items from folder...");
@@ -204,7 +200,6 @@
             }
         }
 
-        
         SmartImport ();
         createCompsAndRender ();
         
